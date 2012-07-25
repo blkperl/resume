@@ -1,0 +1,176 @@
+% William Van Hevelingen - Curriculum Vitae
+% 
+%
+% Copyright (C) 2012 William Van Hevelingen
+% Copyright (C) 2012 Spencer Krum
+% 
+% Template (C) 2004-2010 - Jason R. Blevins
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely.  No attribution is
+% required in any resulting documents.  I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Fonts
+\usepackage[T1]{fontenc}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage[scaled=0.85]{beramono}
+
+% Set your name here
+\def\name{William Van Hevelingen}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {Open Source, Puppet, Computer Science},
+  pdftitle = {\name: William Van Hevelingen Resume},
+  pdfsubject = {William Van Hevelingen},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9.0in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets and compact spacing
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0.25em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.25em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}[t]{0.5\textwidth}
+  William Van Hevelingen\\
+  3121 NE Chehalem Dr.\\
+  Newberg, OR 97132
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+  Mobile: (971) 832-9862 \\
+  Email: \texttt{wvan@cs.pdx.edu} \\
+  Homepage: \texttt{http://github.com/blkperl} \\
+\end{minipage}
+
+\section*{Objective}
+
+%\\
+
+\begin{minipage}[t]{0.5\textwidth}
+\section*{Core Skills}
+\begin{itemize}
+\item Linux and Unix system administration
+\item Configuration Management (puppet) 
+\item Verbal and written communication
+\end{itemize}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\section*{Education}
+\begin{itemize}
+
+  \item B.S., Computer Science
+  \item Portland State University, Portland, OR
+  \item Expected graduation: Fall 2013
+  
+\end{itemize}
+\end{minipage}
+
+\renewenvironment{itemize}{
+  \begin{list}{$\bullet$}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0.25em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.25em}
+  }
+}{
+  \end{list}
+}
+\section*{Experience}
+
+\subsection*{Unix System Administrator (Portland State University / TheCAT)}
+\begin{itemize}
+
+    \item Oct 2009 - Present
+    \item Worked part time on the Unix/Linux team administering servers, services, and networking
+    \item Gained experience with and exposure to: Puppet, Puppet module development, NFS, Autofs, Samba, iSCSI, LXC, KVM, libvirt, Xen, Ganeti, LVM, ZFS, DHCP, PXE/Syslinux, DNS, OpenLDAP, Apache, Nginx, PostgreSQL, MySQL, Linux, FreeBSD, Solaris, Nexenta, Out-of-band management interfaces, Amanda Network Backup, Zenoss, IRC server administration, Gitolite, Ruby on Rails.
+    \item Developed team-based skills and experience: IRC, git, tickets, self-documenting on wiki, written and verbal communications
+    \item Worked the front desk providing customer support to users in person and on the phone.
+
+ 
+\end{itemize}
+
+\subsection*{MECOP Software Developer Internship (Lam Research / Novellus Systems)}
+\begin{itemize}
+
+    \item April 2012 - Aug 2012
+    \item Worked as a Java developer on Nexus tool platform
+    \item Ported Java UI screens from legacy C platform to Java platform
+    \item Wrote automated tool configuration testing scripts
+
+\end{itemize}
+
+\subsection*{MECOP Software Developer Internship (ON Semiconductor)}
+\begin{itemize}
+
+    \item April 2011 - Sep 2011
+    \item Worked as C\# webapp developer on internal Business applications
+    \item Designed and implemented web apps, console applications, and class libraries within the .NET framework 
+    \item Wrote SQL queries to generate reports for the Business Team to analyze trends and patterns in the production line.
+    \item Worked with internal customers to add AD authentication for all legacy applications used by the Business Units. 
+
+\end{itemize}
+
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{small}
+    Last updated: \today
+  \end{small}
+\end{center}
+
+\end{document}
