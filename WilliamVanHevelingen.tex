@@ -19,8 +19,8 @@
 
 % Fonts
 \usepackage[T1]{fontenc}
-\usepackage[bitstream-charter]{mathdesign}
-\usepackage[scaled=0.85]{beramono}
+% \usepackage[bitstream-charter]{mathdesign}
+% \usepackage[scaled=0.85]{beramono}
 
 % Set your name here
 \def\name{William Van Hevelingen}
@@ -30,7 +30,7 @@
   colorlinks = true,
   urlcolor = black,
   pdfauthor = {\name},
-  pdfkeywords = {Open Source, Puppet, Computer Science},
+  pdfkeywords = {resume},
   pdftitle = {\name: William Van Hevelingen Resume},
   pdfsubject = {William Van Hevelingen},
   pdfpagemode = UseNone
@@ -95,26 +95,25 @@
   Homepage: \texttt{http://github.com/blkperl} \\
 \end{minipage}
 
-\section*{Objective}
+% \section*{Objective}
 
 %\\
 
-\begin{minipage}[t]{0.5\textwidth}
-\section*{Core Skills}
-\begin{itemize}
-\item Linux and Unix system administration
-\item Configuration Management (puppet) 
-\item Verbal and written communication
-\end{itemize}
-\end{minipage}
 \begin{minipage}[t]{0.5\textwidth}
 \section*{Education}
 \begin{itemize}
 
   \item B.S., Computer Science
   \item Portland State University, Portland, OR
-  \item Expected graduation: Fall 2013
+  \item Expected graduation: Fall 2014
   
+\end{itemize}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\section*{Other}
+\begin{itemize}
+\item Co-Author of Pro Puppet Edition II
+\item Community Puppet Module Maintainer
 \end{itemize}
 \end{minipage}
 
@@ -130,25 +129,27 @@
 }
 \section*{Experience}
 
-\subsection*{Unix System Administrator (Portland State University / TheCAT)}
+\subsection*{Lead Unix System Administrator (Portland State University / TheCAT)}
+
 \begin{itemize}
-
-    \item Oct 2009 - Present
-    \item Worked part time on the Unix/Linux team administering servers, services, and networking
-    \item Gained experience with and exposure to: Puppet, Puppet module development, NFS, Autofs, Samba, iSCSI, LXC, KVM, libvirt, Xen, Ganeti, LVM, ZFS, DHCP, PXE/Syslinux, DNS, OpenLDAP, Apache, Nginx, PostgreSQL, MySQL, Linux, FreeBSD, Solaris, Nexenta, Out-of-band management interfaces, Amanda Network Backup, Zenoss, IRC server administration, Gitolite, Ruby on Rails.
-    \item Developed team-based skills and experience: IRC, git, tickets, self-documenting on wiki, written and verbal communications
-    \item Worked the front desk providing customer support to users in person and on the phone.
-
- 
+    \item Aug 2012 - Present
+    \item Oversaw all Unix and Linux servers and desktops for the College of Engineering and managed a team of student workers and volunteers.
+    \item Supervised and assisted in implementing migration from legacy Sun Directory servers to OpenLDAP.
+    \item Built RHEL/Centos environment and migrated Solaris CAD tools to RHEL5.
+    \item Built Solaris 11 environment and migrated Solaris 10 fileservers to new platform.
+    \item Implemented Redmine 1.x to Redmine 2.x migration and built a self-service portal for project and repository creation.
+    \item Setup Nagios and Graphite for improved monitoring and metrics.
 \end{itemize}
 
-\subsection*{MECOP Software Developer Internship (Lam Research / Novellus Systems)}
+\subsection*{Unix System Administrator - Student Worker (Portland State University / TheCAT)}
 \begin{itemize}
 
-    \item April 2012 - Aug 2012
-    \item Worked as a Java developer on Nexus tool platform
-    \item Ported Java UI screens from legacy C platform to Java platform
-    \item Wrote automated tool configuration testing scripts
+    \item Oct 2009 - Aug 2012
+    \item Deployed and maintained Unix/Linux services.
+    \item Wrote and integrated Puppet modules for our environment.
+    \item Worked on the Networking team activating switch ports and debugging network problems.
+    \item Trained and taught new volunteers Unix as part of theCAT's braindump program.
+
 
 \end{itemize}
 
@@ -157,9 +158,10 @@
 
     \item April 2011 - Sep 2011
     \item Worked as C\# webapp developer on internal Business applications
-    \item Designed and implemented web apps, console applications, and class libraries within the .NET framework 
+    \item Designed and implemented web apps, console applications, and class libraries within the .NET framework.
     \item Wrote SQL queries to generate reports for the Business Team to analyze trends and patterns in the production line.
-    \item Worked with internal customers to add AD authentication for all legacy applications used by the Business Units. 
+    \item Migrated all legacy applications with local users or legacy ldap server to use AD authentication.
+    \item Migrated business applications, perl scripts, user configuration on a Solaris 9 server to a RHEL6 server.
 
 \end{itemize}
 
